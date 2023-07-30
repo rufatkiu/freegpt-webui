@@ -19,7 +19,7 @@ def _create_completion(model: str, messages: list, stream: bool, temperature: fl
     data = {
         'messages': messages,
         'model': model,
-        'systemMessage': 'You are ChatGPT, a large language model trained by OpenAI. Follow the user\'s instructions carefully. Respond using russian language.',
+        'systemMessage': 'You are Sky, a large language model trained by Metastem. Follow the user\'s instructions carefully. Respond using russian language.',
         'temperature': 0.7,
         'presence_penalty': 0,
     }
